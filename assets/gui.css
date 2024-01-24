@@ -1,0 +1,120 @@
+body{
+    background-color: #181027;
+    color: white;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.landingimg{
+    width: 70%;
+    margin-left: 32%;
+    height :100%;
+    max-width: none;
+    
+}
+
+.hlanding{
+    padding-top: 15px;
+    padding-left: 5px;
+    margin-top: 25px;
+}
+
+.toplogo{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    padding: 0%;
+    padding-top: 5px;
+}
+
+.navbar{
+    height : 10%;
+
+}
+
+.navitems li{
+    display: inline-block;
+    font-size: medium;
+    margin: 5px 25px;
+    padding: 15px;
+    border-bottom: solid thin transparent;
+    box-sizing: border-box;
+}
+
+.navitems li:hover{
+    border-bottom: solid white thin;
+}
+
+.navbarbtn {
+    background-color: #f4511e;
+    color: white;
+    border-radius: 16px;
+    padding: 10px 0px;
+    width: 100%;
+    margin-top: 10px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center !important;
+    transition: 0.5s;
+}
+
+.navbarbtn:hover{
+    opacity: 0.6;
+}
+
+.container{
+    padding: 0px 50px;
+}
+
+.maincontent{
+    height: 60vh;
+}
+
+.footer{
+    background-color: #2D1F48;
+    max-width: none;
+    height: 30%;
+    padding-top: 2%;
+
+}
+
+
+html, body{
+    height:100%
+}
+
+
+.footerbtn {
+    background-color: transparent;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 0px ;
+    width: 100%;
+    margin-top: 15px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center !important;
+    transition: 0.5s;
+    border: medium #F4511E solid;
+}
+
+
+.footerbtn:hover{
+    background-color: #F4511E;
+    opacity: 1;
+}
+
+
+.footercontent p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.footercontent h4{
+    padding-top: 30px 
+}
+
+.footercontent{
+    padding: 0px 20px;
+}
