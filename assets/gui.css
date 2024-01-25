@@ -118,3 +118,61 @@ html, body{
 .footercontent{
     padding: 0px 20px;
 }
+
+@media screen and (max-width: 1015px) {
+
+    .maincontent{
+        width: 100%;
+        overflow: hidden;
+    }
+
+
+    .navbar{
+        height: auto;
+    }
+
+    .navitems li{
+        width: auto;
+        padding: 0.5%
+        
+    }
+
+    .navitems{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .navbar * {
+        width: 100%;
+    }
+
+    .navbarbtn{
+        margin-left: 25%;
+        margin-right: 25%;
+        width: 50%;
+    }
+
+    .landingimg{
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+        overflow: hidden;
+        height: auto;
+        
+    }
+
+    .landingimg-container {
+        overflow: hidden; /* Hide the overflow content */
+        height: 70%; /* Adjust this value to control the visible portion of the image */
+    }
+
+    .hlanding-container{
+        overflow: hidden; /* Hide the overflow content */
+        height: 30%; /* Adjust this value to control the visible portion of the image */
+        display: flex;
+        justify-content: center;
+    }
+
+
+}
