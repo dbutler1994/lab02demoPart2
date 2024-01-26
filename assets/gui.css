@@ -63,7 +63,7 @@ body{
 }
 
 .container{
-    padding: 0px 50px;
+    padding: 0px 4px;
 }
 
 .maincontent{
@@ -124,6 +124,7 @@ html, body{
     .maincontent{
         width: 100%;
         overflow: hidden;
+        height: 50vh;
     }
 
 
@@ -172,7 +173,35 @@ html, body{
         height: 30%; /* Adjust this value to control the visible portion of the image */
         display: flex;
         justify-content: center;
+        height: fit-content; 
     }
 
+    .hlanding{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        
+    }
+
+    .footercontent h2, .footercontent a{
+        display: none;
+    }
+
+    .footer{
+        display: flex;
+        justify-content: center;
+        text-align: left;
+    }
+    
+    .footercontentright{
+       margin-left: 20px;
+       margin-top: 20px;
+    }
+
+    .footercontentright p {
+        padding: 5px;
+    } 
 
 }
